@@ -1,0 +1,55 @@
+
+
+.h1titler{
+    position: absolute;
+    top: 148px;
+    left: 66px;
+ 
+}
+
+.btnatras{
+    position: absolute;
+    left: 12px;
+   top: 154px;
+   color: #272C41;
+
+}
+
+.parp{
+    position: absolute;
+    width: 255px;
+    height: 23px;
+    left: 20px;
+    top:222px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px; 
+    color:  #DA8F72;;
+}
+
+.subr{
+    position: absolute;
+    top: 261px;
+    display: inline-block;
+    left: 20px;
+   width: 320px;
+}
+
+.btn{
+    position: absolute;
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+    left: 36px;
+    top: 610px;
+    background-color: #8ACBB5 !important;
+    border: 1px solid #272C41 !important;
+    border-radius: 10px !important;
+    margin-bottom: 65px !important;
+
+}
+
+

@@ -1,0 +1,107 @@
+.btnsave{
+    position: relative;
+   box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+    left: 20px;
+    top: 142px;
+    background-color: #8ACBB5 !important;
+    border: 1px solid #272C41 !important;
+    border-radius: 10px !important;
+    margin-bottom: 65px !important;
+}
+.divNew{
+    text-align: justify;
+    margin: 0 auto;
+    padding-left: 20px;
+    height: 100%;
+    width: 100%;
+    top: 114px;
+    position: absolute;
+
+}
+.h2title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #272C41;
+    left: 73px;
+    top: 29px;
+    position: absolute;
+    
+}
+
+
+.back{
+    position: absolute;
+    float: left !important;
+    background-color: #8ACBB5 !important;
+    border: 1px solid #272C41 ;
+    color:#272C41;
+    top: 20px;
+    margin-left: 1px !important;
+}
+
+.h2sub{
+    position: absolute;
+    width: 315px;
+    height: 24px;
+    right: 39px;
+    top: 77px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #DA8F72;
+}
+
+
+.acordion{
+    top: 73px;
+    left: 2px;
+    position: relative;
+    width: 95%;
+}
+
+.inputC{
+    width: 170%
+
+}
+
+.txtU{
+    width: 80%;
+    top: 110px;
+}
+
+.cliente{
+    top: 160px !important;
+    right: 11px;
+    position: absolute;
+}
+
+.Ra{
+position: absolute;
+top: 259px !important;
+left: 30PX;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+color: #DA8F72;
+}
+.plus{
+position: absolute;
+left: 307px;
+top: 251px;
+border: 1px solid #272C41 !important;
+background: #8ACBB5 !important;
+color: #272C41 !important;
+
+}
+
+
+

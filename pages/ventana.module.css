@@ -1,0 +1,38 @@
+.h2title{
+    position: absolute;
+    top: 33px;
+    left: 15px;
+}
+
+.sub{
+    position: absolute;
+    top: 82px;
+    left: 17px;
+    margin: 4px 9px;
+}
+
+.btn{
+    position: absolute;
+    top: 156px;
+    left: 26px;
+    box-sizing: border-box;
+    background: aqua;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 301px;
+    height: 40px;
+}
+
+.btn2{
+    position: absolute;
+    top: 221px;
+    left: 26px;
+    box-sizing: border-box;
+    background: aqua;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 301px;
+    height: 40px;
+}
