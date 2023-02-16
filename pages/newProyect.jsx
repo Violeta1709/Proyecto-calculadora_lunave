@@ -36,7 +36,7 @@ const handleChange = (event) => {
 <>
 
 
-  <MenuPrincipal/>
+  <CustomNavbar/>
       
   <div className={styles.divNew}>
     

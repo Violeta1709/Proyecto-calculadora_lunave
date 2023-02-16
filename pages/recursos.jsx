@@ -35,10 +35,11 @@ const handleChang = (event) => {
   setPuesto(event.target.value);
 };
 
+
   return (
     <div className={styles.divtodo}>
       <CustomNavbar/>
-      <MenuPrincipal/>
+      
       <FontAwesomeIcon className={styles.btnatras} icon={faCircleArrowLeft}
 style={{ top: '155px', fontSize:33, left:'15px', position:'absolute', color: '#8ACBB5', border: '1px solid #272C41',borderRadius:'20px'}}
  />

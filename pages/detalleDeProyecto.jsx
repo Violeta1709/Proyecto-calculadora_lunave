@@ -19,7 +19,7 @@ export default function DetalleDeProyecto() {
   return (
     <div>
         <CustomNavbar/>
-        <MenuPrincipal/>
+    
 <FontAwesomeIcon icon={faCircleArrowLeft}
 style={{ top: '122px', fontSize: 30, left:'15px', position:'absolute', color: '#8ACBB5',border: '1px solid #272C41',borderRadius:'20px'}}
  />

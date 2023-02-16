@@ -7,6 +7,7 @@ import MenuPrincipal from '../customProyects/MenuPrincipal'
 import { useState } from 'react';
 import axios from 'axios';
 import NewProyect from '../../../newProyect';
+import CustomNavbar from '../../components/CustomNavbar';
 
 
 
@@ -41,11 +42,12 @@ export default function Login() {
 
 
 
-
     return ( 
+      
+
    <div className={styles.divlogin}>
 
-
+<CustomNavbar/>
 
 
 <h1 className={styles.h1title}>Bienvenido a Lunave</h1>
