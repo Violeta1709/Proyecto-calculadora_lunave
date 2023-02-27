@@ -13,12 +13,15 @@ import { Button } from '@mui/material'
 import Hola from './ventana';
 import CustomNavbar from './app/components/CustomNavbar';
 import MenuPrincipal from './app/pages/customProyects/MenuPrincipal';
+import EliminarProyecto from './ventana';
 
 
 export default function DetalleDeProyecto() {
   return (
     <div>
         <CustomNavbar/>
+        
+    <div className={styles.mp}><MenuPrincipal/></div>  
     
 <FontAwesomeIcon icon={faCircleArrowLeft}
 style={{ top: '122px', fontSize: 30, left:'15px', position:'absolute', color: '#8ACBB5',border: '1px solid #272C41',borderRadius:'20px'}}
@@ -26,6 +29,7 @@ style={{ top: '122px', fontSize: 30, left:'15px', position:'absolute', color: '#
  <br />
  <br />
 
+<div className={styles.all}>
 <h1 className={styles.h1titler}> Detalle de proyecto</h1>
 <p className={styles.parp}>Datos generales de proyecto</p>
 <label className={styles.lnp} htmlFor="">Nombre de Proyecto</label>
@@ -43,18 +47,22 @@ style={{ top: '122px', fontSize: 30, left:'15px', position:'absolute', color: '#
   <label htmlFor="" className={styles.ds}> 12 h <br /> horas</label>
   <label htmlFor="" className={styles.ds2}> 10  <br /> recursos</label>
   <label htmlFor="" className={styles.ds3}> 120 d <br /> días</label>
+  </div>
+        <div className={styles.accordion}><Costos/></div>   
 
-           <Costos/>
 
 
 
-<Hola/>
-           <Button 
- 
-     
-     href='/editarProyecto'
-     className={styles.btneditar}
-    variant="Guardar">Editar</Button>
+<div className={styles.btns}><EliminarProyecto/>
+
+<Button 
+
+
+href='/editarProyecto'
+className={styles.btneditar}
+variant="Guardar">Editar</Button></div>
+
+
 
     </div>
   )

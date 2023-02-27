@@ -39,7 +39,7 @@ const handleChange = (event) => {
 
 <CustomNavbar/>
 
-      
+      <MenuPrincipal/>
   <div className={styles.divNew}>
     
   <FontAwesomeIcon className={styles.btnatras} icon={faCircleArrowLeft}

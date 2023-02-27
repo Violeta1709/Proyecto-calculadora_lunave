@@ -24,3 +24,59 @@
     bottom: 1px;
 
 }
+
+
+.h1{
+ font-size: 10px;
+ margin-top: 2px;
+ margin-right: 13px;
+}
+
+
+.ht1{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.Typography1{
+
+    margin-left: -39px;
+
+}
+
+.ht2{
+    font-size: 12px;
+    margin-left: 90px;
+}
+
+.Typography2{
+    margin-left: -30px;
+
+}
+
+.acordiontitle{
+font-size: 12px;
+margin-left: 2px;
+}
+ .Typography3{
+    margin-top: -49px;
+    
+}
+
+.acordiontitle2{
+    font-size: 12px;
+margin-left: 176px;
+margin-top: -52px;
+}
+.Typography4{
+    margin-left: 174px;
+    margin-top: -49px; 
+}
+.ac{
+    background-color: #C9DAA4
+    !important;
+}
+
+.Typographys{
+margin-bottom: 22px;
+}

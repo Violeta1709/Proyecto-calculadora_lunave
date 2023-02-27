@@ -53,7 +53,7 @@ function ChildModal() {
   );
 }
 
-export default function Hola() {
+export default function EliminarProyecto() {
   const [open, setOpen] = React.useState(false);
   const handleOpen = () => {
     setOpen(true);

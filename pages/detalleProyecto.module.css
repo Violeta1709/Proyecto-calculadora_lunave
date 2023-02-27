@@ -58,8 +58,8 @@
     left: 15px;
 }
 .hc{
-       position: absolute;
-    left: 15px;
+  position: absolute;
+  left: 15px;
   top: 281px;
 }
 
@@ -67,6 +67,11 @@
     position: absolute;
     left: 15px;
   top: 313px;
+}
+
+.all{
+    margin-top: 222px;
+
 }
 
 .hfc{
@@ -191,3 +196,16 @@ text-align: center;
     color: #272C41;
   }
 
+.mp{
+    margin-top: 40px;
+}
+
+.accordion{
+
+   margin-top: 376px;
+   margin-left: 9px;
+}
+
+.btns{
+  margin-top: 833px;  
+}

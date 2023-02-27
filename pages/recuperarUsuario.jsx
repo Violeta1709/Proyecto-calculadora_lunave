@@ -1,7 +1,7 @@
 import React from 'react'
 import TextField from '@mui/material/TextField';
-import Button from '@mui/material/Button';
-import styles from '../login/components/login.module.css'
+
+import styles from './login.module.css'
 import { Box } from '@mui/system';
 
 function RecuperarUsuario() {
@@ -21,9 +21,9 @@ function RecuperarUsuario() {
     </Box>
        <br/>
       <br/>
-       <Button className={styles.btnIngreso} variant="outlined" color="primary">
+       <button className={styles.btnIngreso} variant="outlined" color="primary">
   Recuperar Contraseña
-       </Button>
+       </button>
     </div>
   )
 }

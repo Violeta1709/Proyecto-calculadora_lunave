@@ -1,13 +1,14 @@
 import React, { useEffect } from 'react'
 import TextField  from '@mui/material/TextField'
-import styles from './components/login.module.css'
+import styles from './login.module.css'
 import { Box } from '@mui/system';
 import { Button, Link } from '@mui/material';
-import MenuPrincipal from '../customProyects/MenuPrincipal'
+import MenuPrincipal from './app/pages/customProyects/MenuPrincipal'
 import { useState } from 'react';
 import axios from 'axios';
-import NewProyect from '../../../newProyect';
-import CustomNavbar from '../../components/CustomNavbar';
+import NewProyect from './newProyect';
+
+import CustomNavbar from './app/components/CustomNavbar';
 
 
 
@@ -27,15 +28,12 @@ export default function Login() {
 
   const login = () => {
 
-
-   
-      
     
     const data = {usuario:usuario, contraseña: contraseña};
-    axios.get("http://localhost:8080/api", data).then((response) => {
+    axios.post("http://localhost:8080/api/login", data).then((response) => {
       console.log('prueba',response.data);
       if(usuario && contraseña){
-        document.write('se inicio sesion')
+        document.write('inicio de sesion')
           }
     
    } );}
@@ -46,8 +44,8 @@ export default function Login() {
       
 
    <div className={styles.divlogin}>
-
 <CustomNavbar/>
+
 
 
 <h1 className={styles.h1title}>Bienvenido a Lunave</h1>
@@ -85,8 +83,9 @@ component="form"
       </Box>
       <button 
       className={styles.btnIngreso}
-      onClick={login}>
-        Ingresar
+      
+      ><a href='/viewProyect'> Ingresar</a>
+       
       </button>
 
       
@@ -96,7 +95,7 @@ component="form"
 
       
  <footer className={styles.fderehos}>
-   <button href='/recuperarUsuario' className={styles.btnRecuperar}   >
+   <button className={styles.btnRecuperar} ><a href="/recuperarUsuario"></a>
         Recuperar Contraseña
       </button>
 

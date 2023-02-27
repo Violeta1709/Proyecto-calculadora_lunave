@@ -1,30 +1,22 @@
 import * as React from 'react';
+import Box from '@mui/material/Box';
+import Tabs from '@mui/material/Tabs';
+import Tab from '@mui/material/Tab';
 
-import Link from 'next/link';
+export default function CenteredTabs() {
+  const [value, setValue] = React.useState(0);
 
-import styles from './MenuPrincipal.module.css'
-import { Box } from '@mui/material';
-
-export default function MenuPrincipal() {
-
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+  };
 
   return (
-<>
-
-<div className={styles.mp}>
-  <Box  className={styles.nav}
-  color= "inherit">
-      <Link className={styles.nav} href="/newProyect" rel="nofollow" underline="none">
-        {'Proyectos' }
-      </Link>
-      <Link  className={styles.nav} href="/hola" rel="nofollow" underline="hover">
-        {'Recursos'}
-      </Link>
-      <Link  className={styles.nav}  href="/detalleProyecto" rel="nofollow" underline="always">
-        {'Área'}
-      </Link>
-      </Box>
-      </div>
-    </>
+    <Box sx={{ width: '100%', bgcolor: '#fff', marginTop:'65px',}}>
+      <Tabs sx={{position: 'fixed'}} value={value} onChange={handleChange} centered>
+        <Tab  href='/viewProyect' label="Proyectos" />
+        <Tab href='/recursos' label=" Recursos" />
+        <Tab label="Áreas" />
+      </Tabs>
+    </Box>
   );
 }

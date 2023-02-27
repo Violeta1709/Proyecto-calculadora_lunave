@@ -5,6 +5,7 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import styles from './costos.module.css'
+import MenuPrincipal from './app/pages/customProyects/MenuPrincipal';
 export default function Costos() {
   const [expanded, setExpanded] = React.useState(false);
 
@@ -14,44 +15,139 @@ export default function Costos() {
 
   return (
     <div className={styles.acordeon}>
-      <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+
+<Accordion >
         <AccordionSummary
+
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1bh-content"
-          id="panel1bh-header"
+          aria-controls="panel1a-content"
+          id="panel1a-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>
-            General settings
-          </Typography>
-          <Typography sx={{ color: 'text.secondary' }}>I am an accordion</Typography>
+          
+        <Typography className={styles.ht1}>puesto<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography1}><br /> Back-End Jr</Typography>
+
+         <Typography className={styles.ht2}>horas<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography2}><br /> 8 hrs.</Typography>
+
+    
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Nulla facilisi. Phasellus sollicitudin nulla et quam mattis feugiat.
-            Aliquam eget maximus est, id dignissim quam.
-          </Typography>
+        <Typography className={styles.acordiontitle}>Área<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography3}><br /> Desarrollo</Typography>
+
+         <Typography className={styles.acordiontitle2}>costo x hora<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography4}><br /> 1500.00 MXN</Typography>
+
+    
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+      <Accordion className={styles.ac}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel2bh-content"
-          id="panel2bh-header"
+          aria-controls="panel2a-content"
+          id="panel2a-header"
         >
-          <Typography sx={{ width: '33%', flexShrink: 0 }}>Users</Typography>
-          <Typography sx={{ color: 'text.secondary' }}>
-            You are currently not an owner
-          </Typography>
+              
+              <Typography className={styles.ht1}>puesto<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography1}><br /> Back-End Jr</Typography>
+
+         <Typography className={styles.ht2}>horas<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography2}><br /> 8 hrs.</Typography>
+
+    
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Donec placerat, lectus sed mattis semper, neque lectus feugiat lectus,
-            varius pulvinar diam eros in elit. Pellentesque convallis laoreet
-            laoreet.
-          </Typography>
+        <Typography className={styles.acordiontitle}>Área<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography3}><br /> Desarrollo</Typography>
+
+         <Typography className={styles.acordiontitle2}>costo x hora<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography4}><br /> 1500.00 MXN</Typography>
+
         </AccordionDetails>
       </Accordion>
-      
+      <Accordion >
+        <AccordionSummary
+
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
+        >
+               
+        <Typography className={styles.ht1}>puesto<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography1}><br /> Back-End Jr</Typography>
+
+         <Typography className={styles.ht2}>horas<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography2}><br /> 8 hrs.</Typography>
+
+    
+        </AccordionSummary>
+        <AccordionDetails>
+        <Typography className={styles.acordiontitle}>Área<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography3}><br /> Desarrollo</Typography>
+
+         <Typography className={styles.acordiontitle2}>costo x hora<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography4}><br /> 1500.00 MXN</Typography>
+
+        </AccordionDetails>
+      </Accordion>
+
+      <Accordion className={styles.ac}>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
+        >
+              
+              <Typography className={styles.ht1}>puesto<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography1}><br /> Back-End Jr</Typography>
+
+         <Typography className={styles.ht2}>horas<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography2}><br /> 8 hrs.</Typography>
+
+    
+        </AccordionSummary>
+        <AccordionDetails>
+        <Typography className={styles.acordiontitle}>Área<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography3}><br /> Desarrollo</Typography>
+
+         <Typography className={styles.acordiontitle2}>costo x hora<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography4}><br /> 1500.00 MXN</Typography>
+
+        </AccordionDetails>
+      </Accordion>
     </div>
   );
 }

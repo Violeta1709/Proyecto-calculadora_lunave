@@ -14,22 +14,42 @@ function Proyect() {
 
   return (
     <div className={styles.acordion}>
-      <Accordion >
+        
+<Accordion >
         <AccordionSummary
 
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <p className={styles.pa}>Puesto</p>
-          <Typography className={classes.heading}>Back-End Jr.</Typography>
-          <p className={styles.pb}>Area</p>
+          <br />
+          
+ <Typography>Proyecto 1</Typography>
+ 
+        <Typography className={styles.ht1}>puesto<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography1}><br /> Back-End Jr</Typography>
+
+         <Typography className={styles.ht2}>horas<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography2}><br /> 8 hrs.</Typography>
+
+         
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
+        <Typography className={styles.acordiontitle}>Área<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography3}><br /> Desarrollo</Typography>
+
+         <Typography className={styles.acordiontitle2}>costo x hora<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography4}><br /> 1500.00 MXN</Typography>
+
+    
         </AccordionDetails>
       </Accordion>
       <Accordion className={styles.ac}>
@@ -38,13 +58,30 @@ function Proyect() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Accordion 2</Typography>
+              
+              <Typography className={styles.ht1}>puesto<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography1}><br /> Back-End Jr</Typography>
+
+         <Typography className={styles.ht2}>horas<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography2}><br /> 8 hrs.</Typography>
+
+    
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
+        <Typography className={styles.acordiontitle}>Área<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography3}><br /> Desarrollo</Typography>
+
+         <Typography className={styles.acordiontitle2}>costo x hora<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography4}><br /> 1500.00 MXN</Typography>
+
         </AccordionDetails>
       </Accordion>
       <Accordion >
@@ -54,13 +91,30 @@ function Proyect() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Accordion 3</Typography>
+               
+        <Typography className={styles.ht1}>puesto<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography1}><br /> Back-End Jr</Typography>
+
+         <Typography className={styles.ht2}>horas<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography2}><br /> 8 hrs.</Typography>
+
+    
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
+        <Typography className={styles.acordiontitle}>Área<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography3}><br /> Desarrollo</Typography>
+
+         <Typography className={styles.acordiontitle2}>costo x hora<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography4}><br /> 1500.00 MXN</Typography>
+
         </AccordionDetails>
       </Accordion>
 
@@ -70,13 +124,30 @@ function Proyect() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography className={classes.heading}>Accordion 4</Typography>
+              
+              <Typography className={styles.ht1}>puesto<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography1}><br /> Back-End Jr</Typography>
+
+         <Typography className={styles.ht2}>horas<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography2}><br /> 8 hrs.</Typography>
+
+    
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-            sit amet blandit leo lobortis eget.
-          </Typography>
+        <Typography className={styles.acordiontitle}>Área<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography3}><br /> Desarrollo</Typography>
+
+         <Typography className={styles.acordiontitle2}>costo x hora<br/></Typography>
+         <br />
+        
+         <Typography className={styles.Typography4}><br /> 1500.00 MXN</Typography>
+
         </AccordionDetails>
       </Accordion>
     </div>

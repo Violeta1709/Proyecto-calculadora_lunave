@@ -1,6 +1,49 @@
 .acordeon{
-    position: absolute;
-    top: 504px;
-    width: 90%;
-    left: 20px;
+    
+   margin-top: 93px;
+    width: 95%;
+    margin-left:6px;
+}
+
+.ht1{
+    font-size: 12px;
+}
+
+.Typography1{
+
+    margin-left: -39px;
+
+}
+
+.ht2{
+    font-size: 12px;
+    margin-left: 90px;
+}
+
+.Typography2{
+    margin-left: -30px;
+
+}
+
+.acordiontitle{
+font-size: 12px;
+margin-left: 2px;
+}
+ .Typography3{
+    margin-top: -49px;
+    
+}
+
+.acordiontitle2{
+    font-size: 12px;
+margin-left: 176px;
+margin-top: -52px;
+}
+.Typography4{
+    margin-left: 174px;
+    margin-top: -49px; 
+}
+.ac{
+    background-color: #C9DAA4
+    !important;
 }

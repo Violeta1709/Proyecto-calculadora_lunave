@@ -21,6 +21,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCircleArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
+import Costos from './costos';
+import Navbar from './navbar';
 
 function NewProyect() {
 
@@ -30,14 +32,16 @@ const [cliente, setCliente] = React.useState('');
 const handleChange = (event) => {
   setCliente(event.target.value);
 };
+
+
   
   return (
 
 <>
 
 
+
   <CustomNavbar/>
-      
   <div className={styles.divNew}>
     
   <FontAwesomeIcon className={styles.btnatras} icon={faCircleArrowLeft}

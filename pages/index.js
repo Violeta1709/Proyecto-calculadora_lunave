@@ -1,6 +1,6 @@
 
 import Head from 'next/head'
-import Login from './app/pages/login/login'
+import Login from './Login'
 import Noticies from '../pages/app/pages/policies/Notices'
 import Policies from './app/pages/policies/Policies'
 import Terms from './app/pages/policies/Terms'
@@ -16,6 +16,8 @@ import Splash from './app/components/splash'
 import CustomNavbar from './app/components/CustomNavbar'
 import apiPrueba from '../api/hola'
 import ViewProyect from './viewProyect'
+import Navbar from './navbar'
+import RecuperarUsuario from './RecuperarUsuario'
 
 
 const Home=()=> {
@@ -31,7 +33,8 @@ const Home=()=> {
       
         <div>
         
-        <Login/>
+   
+        <Splash/>
             
 
         </div>
